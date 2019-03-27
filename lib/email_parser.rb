@@ -12,6 +12,6 @@ class EmailParser
   end
   
   def parse
-    split_emails = @emails.split(",")
+    split_emails = emails.split.collect { |
   end
 end
