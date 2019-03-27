@@ -7,6 +7,6 @@ class EmailParser
   @@all = []
   
   def initialize
-    split_emails = @emails.split(", ")
+    split_emails = self.new.split(", ")
   end
 end
