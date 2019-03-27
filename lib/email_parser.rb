@@ -10,4 +10,8 @@ class EmailParser
     split_emails = email.split(", ")
     split_emails
   end
+  
+  def parse
+    
+  end
 end
